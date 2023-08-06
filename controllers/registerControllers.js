@@ -24,7 +24,7 @@ const inventry = expressAsyncHandler(async (req, res) => {
 
   var mailOptions = {
     from: process.env.SMTP_MAIL,
-    to: "mohhomadfarman@gmail.com",
+    to: "imagynix.uk@gmail.com",
     subject: "Check Inventry List",
     text: `Here is The inventry List`,
     html: EmailTamplate
